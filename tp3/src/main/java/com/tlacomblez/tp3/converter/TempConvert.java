@@ -18,7 +18,9 @@ import javax.xml.ws.WebServiceFeature;
  * 
  */
 @WebServiceClient(name = "TempConvert", targetNamespace = "https://www.w3schools.com/xml/", wsdlLocation = "https://www.w3schools.com/xml/tempconvert.asmx?WSDL")
-public class TempConvert extends Service {
+public class TempConvert
+    extends Service
+{
 
     private final static URL TEMPCONVERT_WSDL_LOCATION;
     private final static WebServiceException TEMPCONVERT_EXCEPTION;
